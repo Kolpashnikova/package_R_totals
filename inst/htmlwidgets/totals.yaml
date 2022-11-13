@@ -1,0 +1,11 @@
+# (uncomment to add a dependency)
+dependencies:
+  - name: totals
+    version: 1.0.0
+    src: htmlwidgets/lib/totals-1.0.0
+    script:
+      - colors.js
+      - d3.min.js
+      - liquidGauge.js
+    stylesheet:
+      - extra.css
